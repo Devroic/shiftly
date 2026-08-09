@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="badge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#F97316"/>
+    </linearGradient>
+    <clipPath id="cardClip">
+      <rect x="232" y="260" width="560" height="560" rx="70"/>
+    </clipPath>
+    <clipPath id="moonCircleClip">
+      <circle cx="762" cy="730" r="60"/>
+    </clipPath>
+    <mask id="badgeMask" maskUnits="userSpaceOnUse" x="0" y="0" width="1024" height="1024">
+      <rect x="0" y="0" width="1024" height="1024" fill="#FFFFFF"/>
+      <g clip-path="url(#moonCircleClip)">
+        <circle cx="785.2" cy="713.2" r="56" fill="#000000"/>
+      </g>
+    </mask>
+  </defs>
+
+  <!-- whole composition scaled down + recentered so it sits inside Android's adaptive-icon safe zone -->
+  <g transform="translate(512,512) scale(0.72) translate(-542,-542)">
+    <!-- calendar hanger rings -->
+    <rect x="365" y="205" width="34" height="95" rx="17" fill="#111827"/>
+    <rect x="625" y="205" width="34" height="95" rx="17" fill="#111827"/>
+
+    <!-- calendar card -->
+    <rect x="232" y="260" width="560" height="560" rx="70" fill="#FFFFFF"/>
+
+    <g clip-path="url(#cardClip)">
+      <rect x="232" y="260" width="560" height="130" fill="#111827"/>
+
+      <!-- date grid: 3 cols x 2 rows -->
+      <rect x="272" y="420" width="144" height="168" rx="22" fill="#E2E8F0"/>
+      <rect x="440" y="420" width="144" height="168" rx="22" fill="#14B8A6"/>
+      <rect x="608" y="420" width="144" height="168" rx="22" fill="#E2E8F0"/>
+      <rect x="272" y="612" width="144" height="168" rx="22" fill="#E2E8F0"/>
+      <rect x="440" y="612" width="144" height="168" rx="22" fill="#E2E8F0"/>
+      <rect x="608" y="612" width="144" height="168" rx="22" fill="#E2E8F0"/>
+    </g>
+
+    <!-- shift badge: sun merging into crescent moon -->
+    <g mask="url(#badgeMask)">
+      <circle cx="702" cy="730" r="150" fill="url(#badge)"/>
+      <g transform="translate(702,730) scale(0.4) translate(-498,-470)">
+        <circle cx="648" cy="470" r="150" fill="#FFFFFF"/>
+        <circle cx="392" cy="470" r="128" fill="#FFFFFF"/>
+        <g stroke="#FFFFFF" stroke-width="26" stroke-linecap="round">
+          <line x1="392" y1="272" x2="392" y2="230"/>
+          <line x1="240" y1="470" x2="198" y2="470"/>
+          <line x1="253" y1="331" x2="222" y2="300"/>
+          <line x1="253" y1="609" x2="222" y2="640"/>
+          <line x1="392" y1="668" x2="392" y2="710"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

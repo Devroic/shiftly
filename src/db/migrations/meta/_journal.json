@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1786180585142,
+      "tag": "0000_hard_vision",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1786201707359,
+      "tag": "0001_whole_groot",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1786264777719,
+      "tag": "0002_seed_default_shift_types",
+      "breakpoints": true
+    }
+  ]
+}

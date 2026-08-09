@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![Expo SDK](https://img.shields.io/badge/Expo%20SDK-54-000020?logo=expo)](https://docs.expo.dev/versions/v54.0.0/)
 
-**A calendar built for people who work rotating day and night shifts.**
+**A mobile calendar app (iOS & Android) built for people who work rotating day and night shifts.**
 
 Shiftly tracks your shift schedule and your everyday plans in one place. Mark each day as a shift — Day, Night, Off, Leave, or any custom label you create — attach regular calendar events to any date, and set up repeating shift patterns that fill in weeks or months in a single tap instead of setting every day by hand.
 

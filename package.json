@@ -1,7 +1,7 @@
 {
   "name": "shiftly",
   "version": "1.0.0",
-  "description": "A shift-scheduling calendar app for rotating day/night shift workers.",
+  "description": "A mobile shift-scheduling calendar app (iOS & Android) for rotating day/night shift workers.",
   "license": "MIT",
   "main": "expo-router/entry",
   "dependencies": {

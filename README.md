@@ -9,6 +9,9 @@ Shiftly tracks your shift schedule and your everyday plans in one place. Mark ea
 
 All data stays on your device: there's no account, no server, and nothing is ever uploaded anywhere.
 
+> [!NOTE]
+> Shiftly isn't published on the App Store or Google Play yet. For now, the way to try it is to run it from source with Expo Go — see [Getting Started](#getting-started).
+
 ## Table of Contents
 
 - [Features](#features)
@@ -33,7 +36,7 @@ All data stays on your device: there's no account, no server, and nothing is eve
 
 ## Getting Started
 
-Want to run Shiftly from source — to develop, debug, or just try it before it's on your device? Use [Expo Go](https://expo.dev/go):
+Shiftly isn't in the app stores yet, so running it from source is the way to try it (as well as to develop or debug it). Use [Expo Go](https://expo.dev/go):
 
 1. Install [Node.js](https://nodejs.org/) 20+ and the **Expo Go** app on your phone.
 2. Install dependencies from the project root:
